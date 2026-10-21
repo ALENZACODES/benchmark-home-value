@@ -3,7 +3,7 @@
 **A free home value estimator for every address in Canada.**
 Created by **John Khan**.
 
-**Open the app:** https://OWNER.github.io/REPO/
+**Open the app:** https://alenzacodes.github.io/benchmark-home-value/
 
 It covers all 17,250,061 addresses in Canada's National Address Register. It does what paid valuation tools and lender AVMs do, publishes its own accuracy test in full, and costs nothing. There is no account, no API key and no paid data.
 
