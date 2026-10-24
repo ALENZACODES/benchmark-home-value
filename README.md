@@ -1,14 +1,18 @@
+![Benchmark Home Value: a free home value estimator for every address in Canada](assets/banner.png)
+
 # Benchmark Home Value
 
 **A free home value estimator for every address in Canada.**
 
-[![Live demo](https://img.shields.io/badge/live_demo-open-011F5B?style=flat-square)](https://alenzacodes.github.io/benchmark-home-value/) ![Built with HTML and JavaScript](https://img.shields.io/badge/built_with-HTML_and_JavaScript-4a4a4a?style=flat-square)
+[![Live demo](https://img.shields.io/badge/live_demo-open-011F5B?style=flat-square)](https://alenzacodes.github.io/benchmark-home-value/) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-990000?style=flat-square)](LICENSE) ![Built with HTML and JavaScript](https://img.shields.io/badge/built_with-HTML_and_JavaScript-4a4a4a?style=flat-square)
 
 Created by **John Khan**.
 
 **Open the app:** https://alenzacodes.github.io/benchmark-home-value/
 
 It covers all 17,250,061 addresses in Canada's National Address Register. It does what paid valuation tools and lender AVMs do, publishes its own accuracy test in full, and costs nothing. There is no account, no API key and no paid data.
+
+![Benchmark Home Value with Mississauga selected: benchmark price by type and year-over-year change](assets/screenshot-desktop.png)
 
 ## What it does
 
@@ -108,6 +112,10 @@ Indicative only. It is not an appraisal, a lending decision or financial advice.
 ---
 
 **Created by John Khan.** © 2026 John Khan. All rights reserved.
+
+## Licence
+
+MIT. Built by John Khan.
 
 ---
 
