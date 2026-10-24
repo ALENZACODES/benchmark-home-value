@@ -1,24 +1,14 @@
 # Benchmark Home Value
 
 **A free home value estimator for every address in Canada.**
+
+[![Live demo](https://img.shields.io/badge/live_demo-open-011F5B?style=flat-square)](https://alenzacodes.github.io/benchmark-home-value/) ![Built with HTML and JavaScript](https://img.shields.io/badge/built_with-HTML_and_JavaScript-4a4a4a?style=flat-square)
+
 Created by **John Khan**.
 
 **Open the app:** https://alenzacodes.github.io/benchmark-home-value/
 
 It covers all 17,250,061 addresses in Canada's National Address Register. It does what paid valuation tools and lender AVMs do, publishes its own accuracy test in full, and costs nothing. There is no account, no API key and no paid data.
-
-## How accurate it is
-
-The app was backtested on real homes. Each home was priced using only what was known at the time, then checked against the city's later assessment.
-
-| Test | Result |
-|---|---|
-| Homes backtested | 974,500 (7.37 million predictions from 1.22 million assessment records in Calgary, Edmonton, Vancouver and the rest of Alberta and BC) |
-| Median error, houses | 4.95% (78% within 10%) |
-| Median error, all homes | 6.3% (condos are harder: 15.2%) |
-| Address search | 0 of 492,328 streets, typed back in, landed on the wrong home |
-
-The full results are in the app's Backtest section. Every chart and table there can be saved as a PNG or CSV, or all at once as a zip.
 
 ## What it does
 
@@ -37,22 +27,6 @@ The full results are in the app's Backtest section. Every chart and table there 
 - Heating cost and green upgrades, and a valuator for cottages and rural homes.
 - Neighbourhood momentum, an equity relocation map and twin homes in other cities.
 - A printable report, in English and French.
-
-## Data sources
-
-All sources are free and public:
-
-- Statistics Canada National Address Register
-- Municipal open assessment rolls
-- 2021 Census
-- CMHC Rental Market Survey
-- Bank of Canada Valet API
-- Statistics Canada Uniform Crime Reporting Survey
-- Toronto Police Service Public Safety Data Portal
-- City of Toronto open data
-- OpenStreetMap
-- Environment Canada climate normals
-- Open Database of Educational Facilities
 
 ## It keeps working when a source fails
 
@@ -84,7 +58,20 @@ Every input has at least two backups:
 | Bank of Canada Valet, Toronto Police ArcGIS, City of Toronto CKAN, Overpass API | Supply the live data feeds. |
 | GitHub Pages | Hosts the free public website. |
 
-## Run it on your own computer
+## Results
+
+The app was backtested on real homes. Each home was priced using only what was known at the time, then checked against the city's later assessment.
+
+| Test | Result |
+|---|---|
+| Homes backtested | 974,500 (7.37 million predictions from 1.22 million assessment records in Calgary, Edmonton, Vancouver and the rest of Alberta and BC) |
+| Median error, houses | 4.95% (78% within 10%) |
+| Median error, all homes | 6.3% (condos are harder: 15.2%) |
+| Address search | 0 of 492,328 streets, typed back in, landed on the wrong home |
+
+The full results are in the app's Backtest section. Every chart and table there can be saved as a PNG or CSV, or all at once as a zip.
+
+## Quick start
 
 1. Download this repository (**Code → Download ZIP**) and unzip it.
 2. On Windows, double-click **Start Benchmark Home Value.bat**. On any computer with Python, run `python tools/serve.py` and open http://localhost:8765/.
@@ -92,7 +79,23 @@ Every input has at least two backups:
 
 When it runs on your own computer, the local server also relays requests to City of Toronto permits and OpenStreetMap, which browsers can't always call directly. On the website, those features fall back to their backups and links.
 
-## Honest limits
+## Data and sources
+
+All sources are free and public:
+
+- Statistics Canada National Address Register
+- Municipal open assessment rolls
+- 2021 Census
+- CMHC Rental Market Survey
+- Bank of Canada Valet API
+- Statistics Canada Uniform Crime Reporting Survey
+- Toronto Police Service Public Safety Data Portal
+- City of Toronto open data
+- OpenStreetMap
+- Environment Canada climate normals
+- Open Database of Educational Facilities
+
+## Limits
 
 Values come from public assessments, the Census and regional benchmarks, not from sold listings. This is not an appraisal.
 
@@ -105,3 +108,7 @@ Indicative only. It is not an appraisal, a lending decision or financial advice.
 ---
 
 **Created by John Khan.** © 2026 John Khan. All rights reserved.
+
+---
+
+More of my work is on my [GitHub profile](https://github.com/ALENZACODES).
